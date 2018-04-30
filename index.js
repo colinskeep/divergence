@@ -33,7 +33,7 @@ let seconds = new Date().getSeconds(); // eslint-disable-line no-unused-vars
     }, 10000);
 })
 .catch((error) => {
-   cpnsole.log(`Error Message : ${error}`);
+   console.log(`Error Message : ${error}`);
 });
 
 
